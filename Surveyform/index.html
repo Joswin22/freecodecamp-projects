@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-18">
+    <link rel="stylesheet" href="styles.css">
+    <linkmeta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<section id="inbox">
+<form id="survey-form"><label id="name-label">Name</label><input id="name" type="text" required placeholder="Enter your name"/>
+    <br></br><label id="email-label">Email</label><input required id="email" type="email" placeholder="Enter your Email"/>
+    <br></br><label id="number-label">Age(optional)</label><input id="number" type="number" min="10" max="150"placeholder="Age" />
+    <br></br><label> Which option best describes your current role?</label>
+<select id="dropdown">
+  <option  value="Select current role"> Select current role</option>
+  <option  value="Student"> Student</option>
+  <option  value="Full Time Job"> Full Time Job</option>
+  <option  value="Full Time Learner"> Full Time Learner</option>
+  <option  value="Other"> Other</option>
+</select>
+<br></br>
+<label id="radio" > Would you recommend freeCodeCamp to a friend?</label>
+  <label class="inlinecheckbox"><input class= "jos" type="radio" id="Definitely" value="Definitely" name="recommend" >Definitely</label>
+  <label class="inlinecheckbox"><input class= "jos"type="radio" id="Maybe" value="Maybe" name="recommend" >Maybe</label>
+  <label class="inlinecheckbox"><input class= "jos" type="radio" id="Not sure" value="Not sure" name="recommend">Not sure</label>
+  <br><label>What is your favorite feature of freeCodeCamp?</label>
+<select id="dropdown">
+  <option  value="Select an option">Select an option</option>
+  <option  value="Challenges">Challenge</option>
+  <option  value="Projects">Projects</option>
+  <option  value="Community">Community</option>
+  <option  value="Open Source">Open Source</option>
+</select><br></br>
+<label>What would you like to see improved? (Check all that apply)</label>
+<label class="inlinecheckbox"><input type="checkbox" class= "jos" id="Front-end Projects" value="Front-end Projects" name="improved"> Front-end Projects</label>
+<label class="inlinecheckbox"> <input type="checkbox" class= "jos" id="Back-end Projects" value="Back-end Projects" name="improved" > Back-end Projects</label>    
+<label class="inlinecheckbox"> <input type="checkbox" class= "jos" id="Data Visualization" value="Data Visualization" name="improved"> Data Visualization</label>        
+<label class="inlinecheckbox"><input type="checkbox" class= "jos" id="Challenges" value="Challenges" name="improved" > Challenges</label>            
+<label class="inlinecheckbox"><input type="checkbox" class= "jos" id="Open Source Community" value="Open Source Community" name="improved"> Open Source Community</label>
+<label class="inlinecheckbox"><input type="checkbox" class= "jos" id="Gitter help rooms" value="Gitter help rooms" name="improved" > Gitter help rooms</label>
+<br><label>Any comments or suggestions?</label>
+   <textarea>Enter your comments here...</textarea>
+   <br>
+   <br>
+  <button id="submit" type="submit">Submit</button>
+  </section>
+</form>
+</html>
