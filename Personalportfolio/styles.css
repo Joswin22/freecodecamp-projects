@@ -1,5 +1,5 @@
 #navbar{
-     overflow:fixed;
+   
 text-align:right;
    background:#BFCCB5;
    padding: 20px 0px;
@@ -14,12 +14,12 @@ nav a{
         padding: 20px;
     }
 #about{
-        text-align: center;
-        margin-top:67px;
-        padding-top:90px;
-        background-color: #7C96AB;
-        margin-right:0;
-        height:50vh;
+    text-align: center;
+    margin-top:67px;
+    padding-top:90px;
+    background-color: #7C96AB;
+    margin-right:0;
+    height:50vh;
     }
 body{
     margin:0;
@@ -42,9 +42,10 @@ h3{
     gap:16px;
     padding:30px 10px;
 }
-#imggrid{ width: 100%;
-     max-width: 300px;
-    height: 300px;
+#imggrid
+{  width: 100%;
+    max-width: 300px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;}
 #project-title{
@@ -59,7 +60,7 @@ button{
     background-color: #7C96AB;
 }
 .profile-link{
-    background-color: 7C96AB;
+    background-color: #7C96AB;
     padding-top: 60px;
     padding-bottom: 60px;;
    text-align: center ;
@@ -73,10 +74,10 @@ button{
     color: black;
     padding: 5px;
 }
-.jos{
+.foot{
     background-color: #7C96AB;
 }
-.jos p{
+.foot p{
 padding-bottom: 30px;
 }
 h3{

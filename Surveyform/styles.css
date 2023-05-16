@@ -6,7 +6,7 @@ form{
     padding: 20px ;
     margin: auto;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     color: #E8F6EF;
 }
 label{
@@ -19,9 +19,9 @@ input{
 .inlinecheckbox{
     display: flex;
 }
-.jos{
-   display:block;
-    width: unset;
+.in{
+   display: block;
+  width: unset;
    
 }
 #inbox{

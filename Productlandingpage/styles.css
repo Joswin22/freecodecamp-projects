@@ -1,3 +1,7 @@
+html{
+    background-color: #B9EDDD;
+    text-align: center;
+}
 #nav-bar{
     display: flex;
     padding-top: 10px;
@@ -6,37 +10,67 @@
     position:fixed;
     padding-bottom: 11px;
     left: 0;
-}
-h1{
-    position: absolute;
-    top:100px;
-    margin: 75px;
-    text-align: center;
+    top:0;
+    width:100%;
 }
 #header-img{
     width: 30%;
     height:20%;
+    display:flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    padding-top: 20px;
 }
 header ul{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap; 
-}
-nav ul{
     text-decoration: none;
     list-style-type:none;
     text-align: right;
 }
- li{
+li{
     padding:10px;
 }
- a{
+a{
     text-decoration: none;
     color: black;
 }
- .logo{display:flex;
-    justify-content: flex-start;
-    margin-right: auto;
-    padding-top: 20px;
+.masc{
+    background-color:#B9EDDD ;
+    text-align: center;
+    width:100%;
+    margin-top: 160px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    position: absolute;
+    top:100px;
+    margin:auto;
+    padding-top: 30px;
+}
+.macc{
+    display: flex;
+    flex-direction: column;
+}
+.macc input{
+    margin: 5px 0;
+}
+i{
+    size: 20px;
+}
+
+
+.header1
+{
+display:flex;
+flex-direction:column;
+}
+
+fa{
+display:relative;
+
 }
