@@ -1,46 +1,47 @@
+/* html{
+  background-color: #1B9C85;
+ }
 form{
-    height: 100%;
-    width: 50%;
-    border: 1px solid black;
-    background-color: #4C4C6D;
-    padding: 20px ;
-    margin: auto;
-    text-align: left;
-    font-size: 15px;
-    color: #E8F6EF;
+  height: 100%;
+  width: 50%;
+  border: 1px solid black;
+  background-color: #4C4C6D;
+  padding: 40px ;
+  margin: auto;
+  text-align: left;
+  font-size: 15px;
+  color: #E8F6EF;
 }
 label{
-    display: block;
+  display: block;
+  padding:10px 0px;
 }
-input{
-    width: 100%;
-  
+input {
+  width: 100%;
+  margin-bottom: 20px;;  
 }
 .inlinecheckbox{
     display: flex;
 }
 .in{
    display: block;
-  width: unset;
+   width: unset;
    
 }
-#inbox{
+#survey-form{
     max-width: 100;
-  }
-  h1,p {
-    text-align: center;
-   
-  }
-  p{
-    font-style: italic;
-    font-size: 20px;
-  }
-  h1{
-    font-size: 50px;
-  }
-html{
- background-color: #1B9C85;
 }
+h1,p {
+    text-align: center;
+}
+p{
+  font-style: italic;
+  font-size: 20px;
+}
+h1{
+  font-size: 50px;
+}
+
 button, textarea, #dropdown{
     width: 100%;
 }
@@ -50,4 +51,61 @@ textarea{
 #submit{
 height: 40px;
 background-color: #FFE194;
+}
+option{
+  padding: 0px;
+} */
+body{
+background-image: url(/images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+background-position: bottom ;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+width:100%;
+
+}
+form{
+  width: 40%;
+  background-color: #816058c6;
+  padding: 40px;
+  margin: 0px auto;
+  height: auto;
+  color: aliceblue;
+  
+}
+header{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: larger;
+}
+label {
+  display: block;
+  padding-top: 20px;
+  font-size: larger;
+}
+button{
+ display: block;
+ width: 70%;
+ margin: 0 auto;
+ margin-top: 30px;
+ background-color: #AF9BA4;
+ padding: 10px;
+
+}
+textarea{
+  height:100px;
+}
+select, .inp{
+  width: 100%;
+  padding: 3px;
+  background-color: #C6B6B7;
+  border: none;
+  margin-top: 10px;;
+}
+@media screen and (min-width:750px){
+  body{
+    height: 100vh;
+  }
+
 }

@@ -1,4 +1,4 @@
-#navbar{
+nav{
    
 text-align:right;
    background:#BFCCB5;
@@ -42,8 +42,8 @@ h3{
     gap:16px;
     padding:30px 10px;
 }
-#imggrid
-{  width: 100%;
+#imggrid{  
+    width: 100%;
     max-width: 300px;
     height: 200px;
     object-fit: cover;
@@ -74,10 +74,10 @@ button{
     color: black;
     padding: 5px;
 }
-.foot{
+.profile-link{
     background-color: #7C96AB;
 }
-.foot p{
+.profile-link p{
 padding-bottom: 30px;
 }
 h3{

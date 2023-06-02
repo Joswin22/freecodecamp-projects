@@ -2,7 +2,7 @@ html{
     background-color: #B9EDDD;
     text-align: center;
 }
-#nav-bar{
+nav{
     display: flex;
     padding-top: 10px;
     background-color: #577D86;
@@ -21,7 +21,7 @@ html{
     margin-right: auto;
     padding-top: 20px;
 }
-header ul{
+nav ul{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -37,7 +37,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.masc{
+/* .masc{
     background-color:#B9EDDD ;
     text-align: center;
     width:100%;
@@ -45,17 +45,17 @@ a{
     height:100%;
     display: flex;
     justify-content: center;
-}
-h1{
+} */
+/* h1{
     position: absolute;
     top:100px;
     margin:auto;
-    padding-top: 30px;
-}
+    padding-top: 30px; */
+/* }
 .macc{
     display: flex;
     flex-direction: column;
-}
+} */
 .macc input{
     margin: 5px 0;
 }
@@ -69,8 +69,10 @@ i{
 display:flex;
 flex-direction:column;
 }
-
-fa{
-display:relative;
-
+.mainblock{
+    margin-top: 150px;
+    display: relative;
+}
+h1{
+    text-align: center;
 }
